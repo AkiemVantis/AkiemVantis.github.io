@@ -12,28 +12,106 @@
 </head>
 <body>
 <h1>Datenschutzerklärung von Vantis</h1>
-<p>Vantis ist ein privater Assistent für genau eine Person (den Besitzer) und läuft auf dessen
-eigenem PC.</p>
-<h2>Welche Google-Daten Vantis nutzt</h2>
+<p>Stand: 17.10.2026</p>
+<p>Vantis ist ein privater Sprachassistent. Ich betreibe ihn allein, für mich selbst, auf meinem
+eigenen PC. Es gibt keine weiteren Nutzer und keine Anmeldung für andere. Diese Seite beschreibt,
+was Vantis mit den Daten meines Google-Kontos macht, wo sie gespeichert werden und an wen sie
+gelangen können.</p>
+
+<h2>Was Vantis von Google liest und schreibt</h2>
 <ul>
-  <li><strong>Google Kalender</strong>: Termine lesen, anlegen und ändern – auf Wunsch des Besitzers.</li>
-  <li><strong>Gmail</strong>: Nachrichten lesen, Entwürfe anlegen und E-Mails senden – nur auf
-    Wunsch des Besitzers; Senden erst nach seiner Bestätigung.</li>
+  <li><strong>Google Kalender</strong> (Berechtigung „calendar“): Termine und die Liste meiner
+    Kalender lesen, um Termine anzusagen, Fragen zu beantworten und rechtzeitig ans Losgehen zu
+    erinnern. Termine anlegen, ändern und löschen – nur auf meinen Auftrag.</li>
+  <li><strong>Gmail</strong> (Berechtigungen „gmail.readonly“, „gmail.compose“, „gmail.send“):
+    Nachrichten und Labels lesen, um wichtige neue Mails anzusagen und Mails zusammenzufassen.
+    Anhänge auf meinen Wunsch in den Download-Ordner meines PCs speichern. Entwürfe anlegen.
+    E-Mails senden – erst nachdem ich Empfänger, Betreff und Text ausdrücklich bestätigt habe.</li>
 </ul>
-<h2>Wo die Daten bleiben</h2>
+<p>Auf Nachfrage liest Vantis Termine und Mails nur mir vor: Er erkennt meine Stimme, oder ich
+nutze einen meiner eigenen, abgesicherten Fernzugänge (siehe unten). Seine eigenen Ansagen – etwa
+„Termin in 15 Minuten“ oder eine wichtige neue Mail mit Absender und Betreff – und die Antworten
+auf die Knöpfe seiner Bildschirmoberfläche spricht er über den Lautsprecher meines PCs. Die hört,
+wer gerade im Raum ist. Termine eintragen dürfen Gäste nur, wenn ich das ausdrücklich freigebe.</p>
+
+<h2>Wofür die Daten genutzt werden</h2>
+<p>Ausschließlich für meine eigenen Assistenz-Funktionen: Ansagen, Antworten auf meine Fragen,
+Entwürfe und Termine. Vantis verkauft keine Daten, nutzt sie nicht für Werbung und trainiert mit
+ihnen keine eigenen KI-Modelle.</p>
+
+<h2>Wer Daten erhält</h2>
+<p>Für die Funktionen oben können Ausschnitte aus Kalender und Gmail an diese Dienste gehen:</p>
 <ul>
-  <li>Die Google-Anmeldung wird verschlüsselt auf dem PC des Besitzers gespeichert.</li>
-  <li>Zum Beantworten einer Frage kann ein Ausschnitt (z. B. ein Termin oder der Text einer Mail)
-    an den KI-Dienst gehen, mit dem Vantis arbeitet. Darüber hinaus werden keine Google-Daten an
-    Dritte weitergegeben, verkauft oder für Werbung genutzt.</li>
-  <li>Vantis zeigt Google-Daten nur dem Besitzer.</li>
+  <li><strong>Anthropic</strong> (Claude-API): Vantis denkt mit dem Sprachmodell Claude. Zum
+    Beantworten einer Frage gehen die nötigen Ausschnitte dorthin, z. B. ein Termin oder der Text
+    einer Mail; für die Ansage wichtiger Mails auch Absender, Betreff und Vorschau neuer,
+    ungelesener Mails. Laut Anbieter werden Daten aus der API standardmäßig nicht zum Training
+    seiner Modelle genutzt.</li>
+  <li><strong>ElevenLabs</strong> (Sprachausgabe): Vantis spricht seine Antworten über ElevenLabs.
+    Der vorgelesene Text kann Mail- oder Termininhalte enthalten. Der Nutzung meiner Inhalte zur
+    Verbesserung der ElevenLabs-Modelle habe ich in den Kontoeinstellungen widersprochen.</li>
+  <li><strong>Telegram, Discord und meine eigene Handy-App</strong> – nur wenn ich sie eingerichtet
+    habe: Dorthin spiegelt Vantis seine Ansagen (z. B. „Termin in 15 Minuten“ oder eine wichtige
+    neue Mail) und beantwortet von unterwegs meine Fragen, auch zu Terminen und Mails. Die
+    Handy-App läuft auf meinem PC und ist nur über mein privates Netz erreichbar. Mitteilungen bei
+    geschlossener App stellt der Push-Dienst des Handys (z. B. Apple) zu; sie sind für mein Gerät
+    verschlüsselt, der Push-Dienst sieht den Inhalt nicht.</li>
+  <li><strong>Telefon</strong> – nur wenn eingerichtet: Vantis kann mich über meine eigene
+    FRITZ!Box auf meinem Handy anrufen oder von meiner Nummer angerufen werden (Gespräch erst nach
+    Code-Wort). Die Antworten werden über ElevenLabs gesprochen und laufen wie ein normales
+    Telefonat über das Telefonnetz.</li>
+  <li><strong>transitous.org und db.transport.rest</strong> (freie Fahrplandienste): Für die
+    Erinnerung „Zeit zum Losgehen“ schickt Vantis den Ort und die Uhrzeit eines Termins sowie meinen
+    Startort an diese Dienste, um eine Bahnverbindung zu finden – ebenso für den Morgen-Radar, eine
+    Vorschau am Vorabend auf den ersten Termin des nächsten Tages. Beide Funktionen sind
+    abschaltbar.</li>
 </ul>
-<h2>Zugriff widerrufen</h2>
-<p>Der Zugriff lässt sich jederzeit in den Google-Kontoeinstellungen unter
-<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> entziehen.</p>
-<p>Die Nutzung der Google-Daten folgt der
+<p>Darüber hinaus gehen Google-Daten nur an andere Dienste, wenn ich im Gespräch ausdrücklich darum
+bitte – etwa der Ort eines Termins an OpenStreetMap-Dienste (Nominatim, OSRM) für eine Karte oder
+Route, an Open-Meteo für das Wetter dort, an Google Maps für die Straßenansicht oder als Suchbegriff
+an eine Websuche. Verkauft oder für Werbung weitergegeben wird nichts.</p>
+
+<h2>Wo die Daten gespeichert werden</h2>
+<ul>
+  <li>Auf meinem PC: die Google-Anmeldung (Token), verschlüsselt über die Windows-Schnittstelle
+    DPAPI, dazu kleine Zwischenstände wie die Kennungen bereits angesagter Termine und Mails. Außerdem
+    der Gesprächsstand bis zum Beenden (er kann gesprochene Antworten mit Termin- oder Mailinhalten
+    enthalten) und Protokolldateien des Programms (Ablauf und Fehler). Die Protokolle können einzelne
+    Angaben enthalten, etwa den Titel eines eingetragenen Termins oder einen Ortsnamen;
+    Mail-Empfänger stehen darin nur gekürzt.</li>
+  <li>Ebenfalls auf meinem PC: Bei jedem Update legt das Update-Skript eine Sicherungskopie dieser
+    Daten (einschließlich des verschlüsselten Tokens) in einem Ordner neben dem Programmordner an.
+    Sie bleibt, bis ich sie lösche.</li>
+  <li>In meinem Obsidian-Notizordner auf dem PC: Gesprächsprotokolle und daraus abgeleitete Notizen.
+    Sie können Inhalte aus Terminen oder Mails enthalten, wenn ich danach gefragt habe. Ist der
+    Morgen-Radar aktiv, trägt er außerdem den ersten Termin des nächsten Tages (Titel, Uhrzeit, Ort)
+    in meine Tagebuch-Notiz ein.</li>
+  <li>In meinem eigenen OneDrive: ein tägliches Backup der Programmdaten (ohne Protokolldateien) und
+    der Notizen (standardmäßig die letzten 14 Stände). Die Google-Anmeldung (Token) ist darin nicht
+    enthalten.</li>
+</ul>
+<p>Die Daten bleiben, bis ich sie lösche. Mail-Anhänge speichert Vantis nur, wenn ich darum bitte.</p>
+
+<h2>Einhaltung der Google-Richtlinie</h2>
+<p>Die Nutzung von Informationen, die Vantis über Google-APIs erhält, und ihre Weitergabe an andere
+Apps halten die
 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
-User Data Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+User Data Policy</a> ein, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+<p lang="en">Vantis' use and transfer to any other app of information received from Google APIs will
+adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Zugriff widerrufen</h2>
+<p>Der Zugriff von Vantis auf mein Google-Konto lässt sich jederzeit in den Google-Kontoeinstellungen
+unter <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+entziehen. Danach kann Vantis weder Kalender noch Gmail lesen oder ändern.</p>
+
+<h2>Diese Webseite</h2>
+<p>Diese Seiten liegen bei GitHub Pages (GitHub, Inc.). Beim Aufruf verarbeitet GitHub technisch
+bedingt die IP-Adresse und weitere Zugriffsdaten in Server-Logs, siehe die
+<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung
+von GitHub</a>. Die Seiten selbst setzen keine Cookies und keine Analyse-Werkzeuge ein.</p>
+
 <p><a href="index.html">Zur Startseite</a></p>
 </body>
 </html>
